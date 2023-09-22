@@ -5,14 +5,8 @@ import java.util.Queue;
 
 public class FloodFill {
 
-    static class Pair{
-        int i;
-        int j;
-        public Pair(int i, int j){
-            this.i = i;
-            this.j = j;
-        }
-    }
+    :qa
+:
 
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
         if (image[sr][sc] == color){
